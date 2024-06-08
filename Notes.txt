@@ -1,2 +1,18 @@
 https://jpmc.udemy.com/course/generative-ai-for-beginners-b
 
+Steps to create a virtual environment
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install xyz
+
+secure way of handling tokens
+
+create a file mac.env with
+export OPENAI_TOKEN=<Token-Value>
+..
+..
+
+Then in your shell run
+source mac.env
+check for variable by echoing
+echo $OPENAI_TOKEN
